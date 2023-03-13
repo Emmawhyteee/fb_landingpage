@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  --bgcolor: rgb(231, 230, 230);
+}
+
+body {
+  background-color: var(--bgcolor);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.first_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 0 9rem;
+}
+
+#first_head {
+  display: flex;
+  justify-items: left;
+  max-width: 259px;
+  /* margin-left: 140px; */
+  /* margin-top: 210px; */
+  gap: 10px;
+}
+
+h1 {
+  display: inline-block;
+  justify-content: left;
+  font-weight: lighter;
+}
+
+h1 span {
+  display: block;
+  /* margin-left: 140px; */
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form_main {
+  margin-top: 10px;
+}
+
+.bg {
+  background-color: white;
+  padding: 10px 10px 24px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+#mail {
+  width: 400px;
+  height: 50px;
+  border-width: thin;
+  border-radius: 4px;
+}
+
+#password {
+  border-width: thin;
+  border-radius: 4px;
+  width: 400px;
+  height: 50px;
+}
+
+.eye {
+  position: relative;
+}
+
+#togglePassword {
+  position: absolute;
+  margin-left: 370px;
+  margin-top: 1rem;
+}
+
+.login {
+  padding: 6px 70px;
+  text-align: center;
+  background-color: rgb(12, 71, 233);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  border-top: none;
+  width: 400px;
+  height: 50px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.a1 {
+  text-decoration: none;
+  text-align: center;
+  margin-inline: 140px;
+}
+
+.b2 {
+  padding: 10px 0;
+}
+.newaccount_button {
+  background-color: rgb(31, 184, 31);
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  margin-top: 3px;
+  align-content: center;
+  margin-left: 100px;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+}
+
+.green {
+  color: white;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  align-content: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+}
+
+p {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.last_man {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
