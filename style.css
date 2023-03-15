@@ -11,6 +11,7 @@ body {
   width: 100vw;
   overflow: hidden;
 }
+
 .first_header {
   display: flex;
   justify-content: space-between;
@@ -67,6 +68,7 @@ h1 span {
   border-color: rgb(12, 71, 233);
   color: rgb(12, 71, 233);
   padding: 1rem;
+  outline: none;
 }
 
 #password {
@@ -77,6 +79,7 @@ h1 span {
   border-color: rgb(12, 71, 233);
   color: rgb(12, 71, 233);
   padding: 1rem;
+  outline: none;
 }
 
 .eye {
@@ -158,4 +161,13 @@ p {
   p {
     color: rgb(92, 124, 230);
   }
+}
+
+.footer {
+  margin-top: 90%;
+  width: 100%;
+  padding: 12rem;
+  background: white;
+  color: grey;
+  display: flex;
 }
